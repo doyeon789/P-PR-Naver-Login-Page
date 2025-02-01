@@ -212,7 +212,7 @@ public class Login_KR {
         JLabel naver = new JLabel();
         int naver_width = 170;
         int naver_height = 32;
-        ImageIcon icon = new ImageIcon("/Users/doyeon/Documents/My Java Work/gui/login/img_Com/logo.png");
+        ImageIcon icon = new ImageIcon("img_Com/logo.png");
         Image naver_img = icon.getImage();
         Image logo = naver_img.getScaledInstance(naver_width, naver_height, 4);
         naver.setIcon(new ImageIcon(logo));
@@ -248,7 +248,7 @@ public class Login_KR {
         JLabel loginbox = new JLabel();
         int loginbox_width = 460;
         int loginbox_height = 308;
-        ImageIcon login_box_icon = new ImageIcon("/Users/doyeon/Documents/My Java Work/gui/login/img_KR/naverlogin_KR.png");
+        ImageIcon login_box_icon = new ImageIcon("img_KR/naverlogin_KR.png");
         Image login_img = login_box_icon.getImage();
         Image login_box = login_img.getScaledInstance(loginbox_width, loginbox_height, 4);
         loginbox.setIcon(new ImageIcon(login_box));
