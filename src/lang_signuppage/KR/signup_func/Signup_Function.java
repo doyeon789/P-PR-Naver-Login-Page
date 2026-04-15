@@ -1569,8 +1569,8 @@ public class Signup_Function extends SignupMain {
             Verify_Number = randomString;
 
             String host = "smtp.naver.com";
-            String user = "ldyeon2789@naver.com";
-            String password = "dlehdus789><"; // 생성된 애플리케이션 비밀번호 사용
+            String user = "...";
+            String password = "..."; // 생성된 애플리케이션 비밀번호 사용
 
             // SMTP 서버 정보를 설정한다.
             Properties props = new Properties();
